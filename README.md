@@ -1,8 +1,8 @@
 # Sandpile
 
-- One of the seminal papers in chaos theory is about self-organized criticality by Per Bak, Chao Tang and Kurt Wiesenfeld  written in 1987. In this paper they introduce a simple cellular automaton model called the sandpile model
+- One of the seminal papers in chaos theory is about self-organized criticality by Per Bak, Chao Tang and Kurt Wiesenfeld  written in 1987. In this paper they introduce a simple cellular automaton model called the sandpile model.
 
-- One of the features of the sandpile model is that if you choose a certain subset of all possible sand pile states you have what's known in math as an abelian group, i.e., a set that behaves like integers under addition
+- One of the features of the sandpile model is that if you choose a certain subset of all possible sand pile states you have what's known in math as an abelian group, i.e., a set that behaves like integers under addition.
 
 
 - Creating functions that creates a 3x3 sandpiles which topple on 4 grains in each cell. Sandpiles are represented by a simple 3x3 list, e.g., pile = [[2,0,2],[0,3,0],[2,0,2]] represents the sandpile with 2 on the corners, 3 in the middle, and zero in the other cells. Our ultimate goal is to (a) have a function that tells us if a given sandpile is part of Dr. Garcia-Puente's set S, and (b) count the number of possible sandpiles exactly that are in S (Dr. Garcia-Puente said there were approximately 100,000).
